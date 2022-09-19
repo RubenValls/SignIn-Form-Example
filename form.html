@@ -1,0 +1,77 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In | Dribbble</title>
+    <link rel="stylesheet" href="form-style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo-container">
+            <img class="dribbble-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Dribbble_Text_Logo_Script.svg/2560px-Dribbble_Text_Logo_Script.svg.png" alt="dibbble-logo">
+            <button class="dark-white-mode"><img onclick="enableMode()" id=dark-white-button src="https://cdn-icons-png.flaticon.com/512/5262/5262027.png" alt="dark-whitemode"></button>
+        </div>
+        <div class="social-media">
+            <h1 class="title">Sign up to Dribble</h1>
+            <div class="google-button">
+                <img class="logo" src="https://www.trecebits.com/wp-content/uploads/2015/09/google.jpg" alt="logo-google">
+                <span class="google-text">Registrarse con Google</span>
+            </div>
+            <img class="logo-twitter" src="https://www.pngkey.com/png/full/67-671021_twitter-logo-white-vector-facebook-logo-grey-round.png" alt="logo-twitter">
+        </div>
+        <div class="separator">
+            <hr>
+            <span>Or</span>
+            <hr>
+        </div>
+        <form action="" method="">
+            <div class="names-usernames">
+                <label class="form-titles" for="name">
+                    <span>Name</span>
+                    <input id="namelabel" type="text" name="names">
+                </label>
+                <label class="form-titles" for="username">
+                    <span>Username</span>
+                    <input id="usernamelabel" type="text" name="username">
+                </label>
+            </div>
+            <div class="emails">
+                <label class="form-titles" for="email">
+                    <span>Email</span>
+                    <input id="emaillabel" type="email" name="email">
+                </label>
+            </div>
+            <div class="passwords">
+                <label class="form-titles" for="pass">
+                    <span>Password</span>
+                    <input id="passlabel" type="password" name="pass" placeholder=" 6+ characters" min="6">
+                </label>
+            </div>
+        </form>
+        <div class="policy-container">
+            <input id="checkbox-button" type="checkbox">
+            <span>Creating an account means you’re okay with our <a href="https://dribbble.com/terms">Terms of Service</a>, <a href="https://dribbble.com/privacy">Privacy Policy</a>, and our default <a href="https://dribbble.com/notifications">Notification Settings</a>.</span>
+        </div>
+        <div class="account-button">
+            <input id="create-span" type="submit" value="Create Account">
+        </div>
+        <p id="sign-in">Already a member? <a id="sign-inlink" href="https://dribbble.com/session/new">Sign In</a></p>
+        <div class="footer-container">
+            <p id="footer-p">This site is protected by reCAPTCHA and the Google <a id="sign-inlink" href="https://policies.google.com/privacy">Privacy Policy</a> and <a id="sign-inlink" href="https://policies.google.com/terms">Terms of Service</a> apply.</p>
+        </div>
+    </div>
+
+    <script>
+        function enableMode(){
+            if(document.body.classList.contains("dark")){
+                document.body.classList.remove("dark")
+            }
+            else{
+                document.body.classList.add("dark");
+            }
+        }
+    </script>
+
+</body>
+</html>
