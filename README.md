@@ -1,3 +1,62 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Readme</title>
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+        .container{
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            margin: 50px;
+        }
+
+        p{
+            text-align: justify;
+            font-family: 'Inconsolata', monospace;
+        }
+
+        .compare-images{
+            display: flex;
+        }
+
+        #compare{
+            width: 50%;
+        }
+
+        #compare:hover{
+            transform: scale(1.07);
+            transition: 1s;
+        }
+
+        #compare:not(:hover){
+            transform: scale(1);
+            transition: 1s;
+        }
+
+        #scriptimg{
+            display: flex;
+            margin: auto;
+        }
+
+        #scriptimg:hover{
+            transform: scale(1.07);
+            transition: 1s;
+        }
+
+        #scriptimg:not(:hover){
+            transform: scale(1);
+            transition: 1s;
+        }
+
+    </style>
+</head>
+<body>
     <h1 style="text-align: center; font-family: 'Inconsolata', monospace;">Sign In Formulary with White and Dark mode</h1>
     <hr>
     <div class="container">
@@ -28,3 +87,5 @@
             Hope it could be helpful to someone. For me, it was a great experience to grow my knowledge and try to improve in
             development world.
         </p>
+</body>
+</html>
