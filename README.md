@@ -1,6 +1,8 @@
 <h1>Sign In Formulary with White and Dark mode</h1>
 <hr>
 
+<p align="center">
+
 <p>Firstly, the main aim of this repository is to show my work adapting the actual (19/09/2022) sign in page at Dribble and try to include some changes. Also, a dark and white button. So, let's see both formularies:</p>
 
 
@@ -19,3 +21,5 @@
 
 
 <p>Hope it could be helpful to someone. For me, it was a great experience to grow my knowledge and try to improve in development world.</p>
+
+</p>
