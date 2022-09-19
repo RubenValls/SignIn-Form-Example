@@ -5,7 +5,7 @@
 <p>Firstly, the main aim of this repository is to show my work adapting the actual (19/09/2022) sign in page at Dribble and try to include some changes. Also, a dark and white button. So, let's see both formularies:</p>
 
 <p align="center">
-  ![img1](https://user-images.githubusercontent.com/96390939/191077243-f6684c9a-77f6-4470-9f43-6ec9c9d60a4c.png)
+  <img src="img/img1.png">
 </p>
 <p align="center">
   ![img2](https://user-images.githubusercontent.com/96390939/191077263-e9e5e9a1-8cf5-4504-97e3-d3c6c2748668.png)
